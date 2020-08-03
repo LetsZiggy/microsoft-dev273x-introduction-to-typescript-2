@@ -1,0 +1,23 @@
+{
+  "name": "microsoft-dev273x-introduction-to-typescript-2",
+  "description": "edX - Microsoft DEV273x - Introduction to TypeScript 2",
+  "version": "0.1.0",
+  "author": "Shafiq Tahir <shafiqtahir.khan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LetsZiggy/microsoft-dev273x-introduction-to-typescript-2"
+  },
+  "keywords": [
+    "typescript",
+    "edx"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.158",
+    "express": "^4.17.1",
+    "lodash": "^4.17.19"
+  }
+}

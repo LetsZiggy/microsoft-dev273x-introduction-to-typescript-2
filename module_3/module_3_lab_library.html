@@ -1,0 +1,31 @@
+<!-- node module_3_lab_library_server.js -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="utf-8" http-equiv="encoding">
+  </head>
+
+  <body>
+    <button id="reverseArray">Reverse Array</button>
+    <button id="lastItemOfArray">Last Item of Array</button>
+    <button id="firstItemOfArray">First Item of Array</button>
+    <button id="concatenateArray">Concatenate Array</button>
+    <div id="output" style="width: 100%;"></div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/6.4.1/system.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/6.4.2/extras/named-exports.min.js" integrity="sha512-mf4/y3IroNfkl20Brygdc+tb4a38MrEmU+VTSyMaqlsZhfVHCdHniA//HEgETGlJptSSCPv72Dy6kXB+OHiGAQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "lodash": "./node_modules/lodash/lodash.min.js"
+        }
+      }
+    </script>
+    <script type="text/javascript">
+      System.import("./module_3_lab_4_main.js")
+    </script>
+  </body>
+</html>

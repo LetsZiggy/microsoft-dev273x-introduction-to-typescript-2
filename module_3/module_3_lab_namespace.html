@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="utf-8" http-equiv="encoding">
+  </head>
+
+  <body>
+    <button onclick="callArrayUtil('reverseArray', array1)">Reverse Array</button>
+    <button onclick="callArrayUtil('lastItemOfArray', array1)">Last Item of Array</button>
+    <button onclick="callArrayUtil('firstItemOfArray', array1)">First Item of Array</button>
+    <button onclick="callArrayUtil('concatenateArray', array1, array2)">Concatenate Array</button>
+    <div id="output" style="width: 100%;"></div>
+
+    <script type="text/javascript" src="module_3_lab_namespace.js"></script>
+    <script type="text/javascript">
+      const array1 = [ 1, 2, 3, 4, 5 ]
+      const array2 = [ 6, 7, 8, 9, 10 ]
+
+      function callArrayUtil (util, array1, array2 = null) {
+        document.getElementById("output").innerHTML = ArrayUtilities[util](array1, array2).toString()
+      }
+
+      document.getElementById("output").innerHTML = "-"
+    </script>
+  </body>
+</html>
