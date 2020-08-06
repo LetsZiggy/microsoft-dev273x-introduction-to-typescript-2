@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "CommonJS",
+    "outDir": ".",
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES2018"
+  }
+}
